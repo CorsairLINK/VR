@@ -6,6 +6,10 @@
 <img src="https://user-images.githubusercontent.com/75369161/223324195-cd5b0da5-542c-4d15-8177-07544704d9f5.png" width=60% height=60%><br/>
 - Прошивка Arduino, формирует пакет данных ctrl[12] и отправляет его по Serial port<br/>
 <img src="https://user-images.githubusercontent.com/75369161/223334724-94165ea0-64ff-4416-9f79-c0e3c8f76f8b.png" width=50% height=50%><br/>
-<b>Полезная информация:</b><br/>
+ctrl[10] и ctrl[11] отправляют данные о состоянии стика. Сам стик имеет аналоговые выходы, подключенные к пинам A0 и A1 на плате ардуино (Диапазон считываемых данных 0...1023). Данные которые принимает драйвер о состоянии стика имеют тип float и принимают значения от -1 до 1. Данный кусок кода реализует преопразование аналоговых данных в данные удобные для драйвера:<br/>
+
+<img src="https://user-images.githubusercontent.com/75369161/223336210-3e51ec6a-c58b-4ea7-8d05-dce4c5c72fef.png" width=50% height=50%><br/>
+
+<br/><b>Полезная информация:</b><br/>
 1. <a href="https://alexgyver.ru/lessons/digital/">Цифровые пины</a><br/>
 2. <a href="https://alexgyver.ru/lessons/analog-pins/">Аналоговые пины</a><br/>
