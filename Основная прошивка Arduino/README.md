@@ -7,7 +7,6 @@
 <br/>
 - Прошивка Arduino, формирует пакет данных ctrl[12] и отправляет его по Serial port<br/>
 <img src="https://user-images.githubusercontent.com/75369161/223334724-94165ea0-64ff-4416-9f79-c0e3c8f76f8b.png" width=60% height=60%><br/>
-
 <b>Полезная информация:</b><br/>
 1. <a href="https://alexgyver.ru/lessons/digital/">Цифровые пины</a><br/>
 2. <a href="https://alexgyver.ru/lessons/analog-pins/">Аналоговые пины</a><br/>
