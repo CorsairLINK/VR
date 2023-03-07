@@ -2,3 +2,5 @@
 
 1. GetData.exe - Консольный вариант программы</br>
 2. GetData2.exe - Оконный вариант. Для отображения параметров нажмите "Get"</br>
+</br>
+Программы взяты из этого <a href="https://github.com/TrueOpenVR">GitHub</a>
