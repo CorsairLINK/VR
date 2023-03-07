@@ -2,11 +2,11 @@
 
 Порядок прошивки:
 1. Загрузить прошивку в плату Arduino
-2. Подключить плату mpu6050:
-  VCC -> +5 V
-  GND -> GND
-  SCL -> A5
-  SDA -> A4
+2. Подключить плату mpu6050:<br/>
+  VCC -> +5 V<br/>
+  GND -> GND<br/>
+  SCL -> A5<br/>
+  SDA -> A4<br/>
 3. Открыть в Arduino IDE "Монитор порта", настроить его скорость на 9600 baud
 4. Расположить неподвижно плату mpu6050 согласно рисунку ниже:
 <img src="https://user-images.githubusercontent.com/75369161/223317700-ac659890-69e0-4ddb-92f9-9d7a79e092b3.jpg" width=30% height=30%>
