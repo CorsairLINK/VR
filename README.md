@@ -10,6 +10,6 @@
 
 Основная идея, драйвера, программы и некоторые части кода взяты из другого проекта: <a href="https://github.com/TrueOpenVR">TrueOpenVR</a>
 
-Полезные ссылки:
+<b>Полезные ссылки:</b>
 1. <a href="https://github.com/CorsairLINK/VR/tree/main/%D0%A1%D0%BA%D0%B0%D0%BD%D0%B5%D1%80%20%D1%88%D0%B8%D0%BD%D1%8B%20I2C">Сканер шины I2C</a>
 
