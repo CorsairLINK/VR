@@ -1,0 +1,22 @@
+{
+	"tovr" : {
+		"secondsFromVsyncToPhotons" : 0.004999999888241291,
+		"serialNumber" : "1000",
+		"renderWidth" : 512,
+		"renderHeight" : 768,
+		"windowWidth" : 1024,
+		"windowHeight" : 768,
+		"windowX" : 0,
+		"windowY" : 0,
+		"displayFrequency" : 60,
+		"ipd" : 0.065,
+		"DistortionK1" : 0,
+		"DistortionK2" : 0,
+		"ZoomWidth" : 0.8,
+		"ZoomHeight" : 0.8,
+		"DistanceBetweenEyes" : 0,
+		"ScreenOffsetX" : 0,
+		"Stereo" : true,
+		"DebugMode" : true
+	}
+}
