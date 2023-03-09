@@ -9,3 +9,5 @@
 1. Нажать на "..." правее "SplitterAdvance"</br>
 2. Установить, согласно изображению ниже</br>
 <img src="https://user-images.githubusercontent.com/75369161/223918038-a2c62e6e-6da1-4267-9dab-1ce71ca87a06.png" width=30% height=30%><br/>
+
+1. Нажать "Ok", затем нажать "Apply" - Готово!
