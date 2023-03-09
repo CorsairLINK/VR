@@ -1,4 +1,4 @@
-Закинуть папку TrueOpenVR по пути: C:\Program Files\</br>
+Закинуть папку "TrueOpenVR" по пути: C:\Program Files\ </br>
 
 Для настройки и активации драйвера, открыть Settings.exe (C:\Program Files\TrueOpenVR\Settings)</br>
 
