@@ -5,6 +5,6 @@ Yaw (Рыскание) / Pitch (Тангаж) / Roll (Крен) </br>
 
 В SteamVr имитируеться контроллер HTC Vive. Центр находиться на красной точке </br>
 
-<img src="https://user-images.githubusercontent.com/75369161/224247708-74a7f606-adf0-4c7c-a81d-e623157d3642.jpg" width=50% height=50%><br/>
+<img src="https://user-images.githubusercontent.com/75369161/224247708-74a7f606-adf0-4c7c-a81d-e623157d3642.jpg" width=40% height=40%><br/>
 
 
