@@ -65,9 +65,9 @@ void loop() {
       mpu.dmpGetGravity(&gravity, &q);
       mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
       // Установка позиций
-      ctrl[0] = -0.05;  // x
-      ctrl[1] = -0.05;  // y
-      ctrl[2] = -0.30;  // z
+      ctrl[0] = -0.05;  // X - Правее/Левее
+      ctrl[1] = -0.05;  // Y - Выше/Ниже
+      ctrl[2] = -0.30;  // Z - Ближе/Дальше
       // Позиция датчика в контроллере (Yaw, Pitch, Roll)      
       ctrl[3] = degrees(ypr[2]);       // Yaw - Рыскание
       ctrl[4] = degrees(ypr[0]) * -1;   // Pitch - Тангаж
@@ -100,16 +100,16 @@ void loop() {
         float pinX_1;
         pinX_1 = 1023 - pinX_0;
         pinX_1 = 1 - (pinX_1 / 510);
-        ctrl[10] = pinX_1; // Ось X
+        ctrl[10] = pinX_1; // Ось X (Передача числа от -1.00 до 1.00)
       }
       if (analogRead(pinY) > 520 || analogRead(pinY) < 500) {
         int pinY_0 = analogRead(pinY);
         float pinY_1;
         pinY_1 = 1023 - pinY_0;
         pinY_1 = 1 - (pinY_1 / 510);
-        ctrl[11] = pinY_1; // Ось Y
+        ctrl[11] = pinY_1; // Ось Y (Передача числа от -1.00 до 1.00)
       }
-      // Отправка пакета данных в Seral port
+      // Отправка пакета данных (ctrl[]) в Seral port
       Serial.write((byte*)&ctrl, sizeof(ctrl));
 
       tmr = millis();  // сброс таймера
