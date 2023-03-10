@@ -8,7 +8,7 @@
 <img src="https://user-images.githubusercontent.com/75369161/223324195-cd5b0da5-542c-4d15-8177-07544704d9f5.png" width=60% height=60%><br/>
 - Прошивка Arduino, формирует пакет данных <code>float ctrl[12];</code> и отправляет его по Serial port (<code>Serial.write((byte*)&ctrl, sizeof(ctrl));</code>)<br/>
 
-<img src="https://user-images.githubusercontent.com/75369161/223334724-94165ea0-64ff-4416-9f79-c0e3c8f76f8b.png" width=50% height=50%><br/>
+<img src="https://user-images.githubusercontent.com/75369161/224243878-2ea1677c-0244-4b27-a0ba-6854c1a0972a.png" width=50% height=50%><br/>
 <code>ctrl[10]</code> и <code>ctrl[11]</code> отправляют данные о состоянии стика. Сам стик имеет аналоговые выходы, подключенные к пинам A0 и A1 на плате ардуино (Диапазон считываемых данных 0...1023). Данные которые принимает драйвер о состоянии стика имеют тип <code>float</code> и принимают значения от -1 до 1. Данный кусок кода реализует преобразование аналоговых данных в данные удобные для драйвера:<br/>
 
 <img src="https://user-images.githubusercontent.com/75369161/223336210-3e51ec6a-c58b-4ea7-8d05-dce4c5c72fef.png" width=50% height=50%><br/>
