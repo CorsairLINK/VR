@@ -28,9 +28,6 @@ void setup() {
   Wire.begin();
   Serial.begin(115200); // Скорость Serial port: 115200 baud
   mpu.initialize(); // Инициализация mpu
-  // Задание стандартной точности
-  mpu.setFullScaleAccelRange(MPU6050_ACCEL_FS_2);
-  mpu.setFullScaleGyroRange(MPU6050_GYRO_FS_250);
   // Установка оффсетов (Ставятся после калибровки индивидуально)
   mpu.setXGyroOffset(-1967);
   mpu.setYGyroOffset(-1170);
@@ -68,12 +65,12 @@ void loop() {
       mpu.dmpGetGravity(&gravity, &q);
       mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
       // Установка позиций
-      ctrl[0] = 0; ////x -0.1
-      ctrl[1] = 0;  //y -0.3
-      ctrl[2] = 0; //y -0.1
-      // Позиция датчика в контроллере (Yaw, Pitch, Roll)
-      ctrl[3] = degrees(ypr[0]);       // Yaw - Рыскание
-      ctrl[4] = degrees(ypr[2]) * -1;   // Pitch - Тангаж
+      ctrl[0] = -0.05;  // x
+      ctrl[1] = -0.05;  // y
+      ctrl[2] = -0.30;  // z
+      // Позиция датчика в контроллере (Yaw, Pitch, Roll)      
+      ctrl[3] = degrees(ypr[2]);       // Yaw - Рыскание
+      ctrl[4] = degrees(ypr[0]) * -1;   // Pitch - Тангаж
       ctrl[5] = degrees(ypr[1]);        // Roll - Крен
       // Позиция датчика на плече (Yaw, Pitch)
       ctrl[6] = 0;
