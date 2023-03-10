@@ -7,4 +7,8 @@ Yaw (Рыскание) / Pitch (Тангаж) / Roll (Крен) </br>
 
 <img src="https://user-images.githubusercontent.com/75369161/224247708-74a7f606-adf0-4c7c-a81d-e623157d3642.jpg" width=40% height=40%><br/>
 
+Система координат mpu6050 </br>
+
+<img src="https://user-images.githubusercontent.com/75369161/224250228-dd882511-87db-4856-a89f-6fb177fa7c1b.jpg" width=40% height=40%><br/>
+
 
