@@ -15,7 +15,7 @@
 1. <a href="https://github.com/CorsairLINK/VR/tree/main/%D0%A1%D0%BA%D0%B0%D0%BD%D0%B5%D1%80%20%D1%88%D0%B8%D0%BD%D1%8B%20I2C">Сканер шины I2C</a> (Arduino прошивка) </br>
 2. <a href="https://github.com/CorsairLINK/VR/tree/main/%D0%9E%D1%81%D0%B8">Система координат тела</a> (Yaw, Pitch, Roll) </br>
 
-По всем вопросам и предложениям обращаться в TG (<a href="https://t.me/Corsa1rr">Ссылка</a>)
+По всем вопросам и предложениям обращаться в Telegram (<a href="https://t.me/Corsa1rr">@Corsa1rr</a>)
 
 <b>Планируеться:</b>
 - Добавить беспроводной режим. Установить и прописать работу BLE модуля HM-10
