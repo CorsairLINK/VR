@@ -64,11 +64,11 @@ void loop() {
       mpu.dmpGetQuaternion(&q, fifoBuffer);
       mpu.dmpGetGravity(&gravity, &q);
       mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
-      // Установка позиций
+      // Установка позиций контроллера в комнате
       ctrl[0] = -0.05;  // X - Правее/Левее
       ctrl[1] = -0.05;  // Y - Выше/Ниже
       ctrl[2] = -0.30;  // Z - Ближе/Дальше
-      // Позиция датчика в контроллере (Yaw, Pitch, Roll)      
+      // Позиция датчика в пространстве (Система координат тела - Yaw, Pitch, Roll)      
       ctrl[3] = degrees(ypr[2]);       // Yaw - Рыскание
       ctrl[4] = degrees(ypr[0]) * -1;   // Pitch - Тангаж
       ctrl[5] = degrees(ypr[1]);        // Roll - Крен
