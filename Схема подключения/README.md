@@ -1,3 +1,5 @@
 Схемы в формате .spl7 открываються в программе "sPlan 7.0" </br>
 
-<img src="https://user-images.githubusercontent.com/75369161/224252736-d406a901-8f38-4450-bfa7-406ff9bafb56.JPG" width=100% height=100%><br/>
+Красной, пунктирной линией обозначены блоки, которые временно отсутствуют и не прописаны в основной прошивке.</br>
+<img src="https://user-images.githubusercontent.com/75369161/224474607-4d56564f-c06b-45cf-b73e-5c01a8eb83db.JPG" width=100% height=100%><br/>
+
