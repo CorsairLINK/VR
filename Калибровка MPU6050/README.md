@@ -1,6 +1,8 @@
-<b>Прошивка, которая калибрует параметры <code>Offset();</code> mpu6050</b>
+<b>Прошивка, которая калибрует параметры <code>Offset();</code> mpu6050</b><br/>
 
-Порядок прошивки:
+<img src="https://user-images.githubusercontent.com/75369161/223324195-cd5b0da5-542c-4d15-8177-07544704d9f5.png" width=60% height=60%><br/>
+
+<b>Порядок прошивки:</b>
 1. Загрузить прошивку в плату Arduino
 2. Подключить плату mpu6050:<br/>
   VCC -> +5 V<br/>
