@@ -4,10 +4,8 @@
 #include "Wire.h"
 #include "I2Cdev.h"
 #include "MPU6050.h"
-#include "EEPROM.h"
 MPU6050 mpu;
 #define BUFFER_SIZE 100
-#define START_BYTE 980
 int16_t ax, ay, az;
 int16_t gx, gy, gz;
 
@@ -15,19 +13,6 @@ void setup() {
   Wire.begin();
   Serial.begin(9600);
   mpu.initialize();
-
-  //----------------- ВСПОМИНАЕМ ОФФСЕТЫ ------------------------
-  int offsets[6];
-  EEPROM.get(START_BYTE, offsets);
-
-  // ставим оффсеты из памяти
-  mpu.setXAccelOffset(offsets[0]);
-  mpu.setYAccelOffset(offsets[1]);
-  mpu.setZAccelOffset(offsets[2]);
-  mpu.setXGyroOffset(offsets[3]);
-  mpu.setYGyroOffset(offsets[4]);
-  mpu.setZGyroOffset(offsets[5]);
-  //----------------- ВСПОМИНАЕМ ОФФСЕТЫ ------------------------
 
   Serial.println(F("Send any character to start sketch"));
   delay(100);
@@ -121,7 +106,4 @@ void calibration() {
     if (i < 3) offsets[i] /= 8;
     else offsets[i] /= 4;
   }
-
-  // запись в память
-  EEPROM.put(START_BYTE, offsets);
 }
