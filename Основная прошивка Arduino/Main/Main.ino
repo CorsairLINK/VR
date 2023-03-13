@@ -107,7 +107,7 @@ void loop() {
         float pinY_1;
         pinY_1 = 1023 - pinY_0;
         pinY_1 = 1 - (pinY_1 / 510);
-        ctrl[11] = pinY_1; // Ось Y (Передача числа от -1.00 до 1.00)
+        ctrl[11] = pinY_1 * -1; // Ось Y (Передача числа от -1.00 до 1.00)
       }
       // Отправка пакета данных (ctrl[]) в Seral port
       Serial.write((byte*)&ctrl, sizeof(ctrl));
