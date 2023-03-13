@@ -14,7 +14,9 @@
 <img src="https://user-images.githubusercontent.com/75369161/224603020-f0300285-eea6-46c5-b981-1c8ddb289b06.png" width=40% height=40%><br/>
 
 4. Расположить неподвижно, горизонтально плату mpu6050. Исключить вибрации! </br>
-5. Отправить любой символ в монитор порта. (Например цифру "1") <br/>        
-6. По завершению, записать полученные оффсеты и внести изменения в <a href="https://github.com/CorsairLINK/VR/tree/main/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0%20Arduino">основную прошивку</a> <br/>
+5. Отправить любой символ в монитор порта. (Например цифру "1") <br/>  
+<img src="https://user-images.githubusercontent.com/75369161/224603230-e267c0fe-8ad6-4d31-b13a-b1a61884c591.png" width=40% height=40%><br/>
+      
+7. По завершению, записать полученные оффсеты и внести изменения в <a href="https://github.com/CorsairLINK/VR/tree/main/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0%20Arduino">основную прошивку</a> <br/>
 <br/>
 Прошивка для калибровки взята из https://alexgyver.ru/arduino-mpu6050/
