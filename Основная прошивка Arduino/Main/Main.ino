@@ -69,7 +69,7 @@ void loop() {
       ctrl[1] = -0.05;  // Y - Выше/Ниже
       ctrl[2] = -0.30;  // Z - Ближе/Дальше
       // Позиция датчика в пространстве (Система координат тела - Yaw, Pitch, Roll)      
-      ctrl[3] = degrees(ypr[2]);       // Yaw - Рыскание
+      ctrl[3] = degrees(ypr[2]) * -1;       // Yaw - Рыскание
       ctrl[4] = degrees(ypr[0]) * -1;   // Pitch - Тангаж
       ctrl[5] = degrees(ypr[1]);        // Roll - Крен
       // Позиция датчика на плече (Yaw, Pitch)
