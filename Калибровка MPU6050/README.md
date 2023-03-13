@@ -18,7 +18,9 @@
 <img src="https://user-images.githubusercontent.com/75369161/224603230-e267c0fe-8ad6-4d31-b13a-b1a61884c591.png" width=40% height=40%><br/>
       
 7. По завершению, записать полученные оффсеты и внести изменения в <a href="https://github.com/CorsairLINK/VR/tree/main/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0%20Arduino">основную прошивку</a> <br/>
-<br/>
 <img src="https://user-images.githubusercontent.com/75369161/224603441-73079221-cab3-4057-a54c-e434fbe14247.png" width=40% height=40%><br/>
+<img src="https://user-images.githubusercontent.com/75369161/224603952-099888a4-8671-4a6e-9beb-be310e01912e.png" width=40% height=40%><br/>
+
+Идеально выполненая калибровка, выведет значения "Readings" примерно такими: <code>0, 0, 16384, 0, 0, 0</code>
 
 Прошивка для калибровки взята из https://alexgyver.ru/arduino-mpu6050/
