@@ -11,7 +11,7 @@
   SDA -> A4<br/>
 (<a href="https://github.com/CorsairLINK/VR/tree/main/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F">Общая схема подключения</a>)</br>
 3. Открыть в Arduino IDE "Монитор порта" (Serial monitor, значек лупы в правом верхнем углу), настроить его скорость на 9600 baud (Выпадающий список, справа низу) </br>
-<img src="https://user-images.githubusercontent.com/75369161/224603020-f0300285-eea6-46c5-b981-1c8ddb289b06.png" width=60% height=60%><br/>
+<img src="https://user-images.githubusercontent.com/75369161/224603020-f0300285-eea6-46c5-b981-1c8ddb289b06.png" width=40% height=40%><br/>
 
 4. Расположить неподвижно, горизонтально плату mpu6050. Исключить вибрации! </br>
 5. Отправить любой символ в монитор порта. (Например цифру "1") <br/>        
