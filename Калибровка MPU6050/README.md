@@ -19,4 +19,6 @@
       
 7. По завершению, записать полученные оффсеты и внести изменения в <a href="https://github.com/CorsairLINK/VR/tree/main/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0%20Arduino">основную прошивку</a> <br/>
 <br/>
+<img src="https://user-images.githubusercontent.com/75369161/224603441-73079221-cab3-4057-a54c-e434fbe14247.png" width=40% height=40%><br/>
+
 Прошивка для калибровки взята из https://alexgyver.ru/arduino-mpu6050/
